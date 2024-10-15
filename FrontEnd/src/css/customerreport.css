@@ -1,0 +1,21 @@
+.search_hints{
+    border:1px solid black;
+    padding: 5px 15px;
+}
+.parent {
+    position: relative; /* Establishes the parent as a reference for the child */
+    width: 200px;
+    height: 50px;
+  }
+  
+  .hint {
+    position: absolute; /* Positions this element relative to .parent */
+    top: 100%; /* Adjust to position directly below the input */
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensures it stays on top of other content */
+  }

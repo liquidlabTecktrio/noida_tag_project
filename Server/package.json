@@ -1,0 +1,35 @@
+{
+  "name": "noidarfidserver",
+  "version": "1.0.0",
+  "description": "TrolleyTracking node js server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon noidaRFIDServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiquidlabInfosystems/trolleyTrackigServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiquidlabInfosystems/trolleyTrackigServer/issues"
+  },
+  "homepage": "https://github.com/LiquidlabInfosystems/trolleyTrackigServer#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^5.13.3",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1",
+    "nodemon": "^3.0.1",
+    "ws": "^8.13.0"
+  }
+}

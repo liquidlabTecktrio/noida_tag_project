@@ -1,0 +1,16 @@
+/* CSS */
+.edit-btn,
+.delete-btn,
+.download-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  color: #007bff; /* Edit button color */
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  color: #dc3545; /* Button color on hover */
+}
