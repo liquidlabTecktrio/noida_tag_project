@@ -1,4 +1,4 @@
 
 
-export const serverIP = '192.168.1.16'
+export const serverIP = '192.168.1.100'
 
