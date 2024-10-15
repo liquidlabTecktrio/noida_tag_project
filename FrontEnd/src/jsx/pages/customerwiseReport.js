@@ -224,7 +224,7 @@ const CustomerWiseReport = () => {
       })
     }
     else {
-      search_result = options?.filter((hint) => hint.name.startsWith(keyword))
+      search_result = options?.filter((hint) => hint.name.toLowerCase().startsWith(keyword))
       
     }
 
