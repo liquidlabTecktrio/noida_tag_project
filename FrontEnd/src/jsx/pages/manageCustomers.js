@@ -234,8 +234,9 @@ const ManageCustomers = () => {
           showSuccessToast(res.data.message);
           handleCancelBtn();
 
-          console.log(res.data.data);
+          // console.log(res.data.data);
           // setTagReaderDataArray(res.data.data);
+          setCustomersDataArray(res.data.data)
           setLoading(false);
         } else if (res.data.status == 201) {
           setLoading(false);
@@ -502,7 +503,6 @@ const ManageCustomers = () => {
     }
 
     // getAllCustomersAPI()
-    window.location.reload()
     setLoading(false)
   };
 
