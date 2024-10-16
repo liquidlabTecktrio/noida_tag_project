@@ -205,7 +205,9 @@ var cors = require('cors')
 const { WebSocket, WebSocketServer } = require('ws');
 // const { trolleyEvents,inactiveMarkingScheduler } = require("./controllers/trolleyEvents");
 // const { inOutRecords } = require("./controllers/trolley_in_Out_Recods");
-const wss = new WebSocket.Server({ port: 8000 });
+
+// const wss = new WebSocket.Server({ port: 8000 });
+const wss = new WebSocket.Server({ port: 8001 });
 
 app.use(bodyParser.json({ limit: "20mb" }));
 app.use(express.urlencoded({ extended: false }));
