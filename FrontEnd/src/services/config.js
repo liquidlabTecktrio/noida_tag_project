@@ -1,8 +1,9 @@
 import { serverIP } from './const'
+import { serverPORT } from './const'
 
 const config = {
    
-    baseUrl: `http://${serverIP}:7575/v1/admin/`,
+    baseUrl: `http://${serverIP}:${serverPORT}/v1/admin/`,
     // baseUrl: `https://${serverIP}/manager/`,
 
 };

@@ -265,6 +265,7 @@ mongoose
   })
   .then((connection) => {
     if (connection) {
+      // app.listen(process.env.PORT);
       app.listen(process.env.PORT);
       console.log("Database Connected !!!");
       console.log(`admin server running on ${process.env.PORT} !!!`);
