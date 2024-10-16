@@ -166,7 +166,8 @@ let filteredTags = uniqueTrolleysArray.filter(trolley => trolley.length === 4);
 
 
 
-const tcpPort = 8585;
+// const tcpPort = 8585;
+const tcpPort = 8587;
 tcpServer.listen(tcpPort, () => {
   console.log(`TCP Server listening on port ${tcpPort}`);
   // sendCommad();
